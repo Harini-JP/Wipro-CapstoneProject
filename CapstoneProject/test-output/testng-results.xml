@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T17:52:00 IST" name="Suite" finished-at="2025-09-08T17:54:59 IST" duration-ms="179101">
+    <groups>
+      <group name="filter">
+        <method signature="EndToEndCombinedTests.testFilterAndSort(java.lang.String,java.lang.String)[pri:4, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="testFilterAndSort" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- filter -->
+      <group name="product">
+        <method signature="EndToEndCombinedTests.addFirstProductToCartTest()[pri:5, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="addFirstProductToCartTest" class="testCases.EndToEndCombinedTests"/>
+        <method signature="EndToEndCombinedTests.addNamedProductToCartTest()[pri:6, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="addNamedProductToCartTest" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- product -->
+      <group name="search">
+        <method signature="EndToEndCombinedTests.testProductSearch(java.lang.String)[pri:3, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="testProductSearch" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- search -->
+      <group name="confirmation">
+        <method signature="EndToEndCombinedTests.fullCheckoutFlow_login_add_checkout_confirm_download_continue_checkNavs_logout()[pri:11, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="fullCheckoutFlow_login_add_checkout_confirm_download_continue_checkNavs_logout" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- confirmation -->
+      <group name="login">
+        <method signature="EndToEndCombinedTests.validLoginTest()[pri:2, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="validLoginTest" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- login -->
+      <group name="checkout">
+        <method signature="EndToEndCombinedTests.checkoutShippingAndSubmitTest()[pri:10, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="checkoutShippingAndSubmitTest" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- checkout -->
+      <group name="cart">
+        <method signature="EndToEndCombinedTests.increaseQuantityAndVerifySubtotal()[pri:7, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="increaseQuantityAndVerifySubtotal" class="testCases.EndToEndCombinedTests"/>
+        <method signature="EndToEndCombinedTests.removeItemFromCartTest()[pri:8, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="removeItemFromCartTest" class="testCases.EndToEndCombinedTests"/>
+        <method signature="EndToEndCombinedTests.addSecondItemToCartTest()[pri:9, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="addSecondItemToCartTest" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- cart -->
+      <group name="crossbrowser">
+        <method signature="EndToEndCombinedTests.verifyHomePageLoads(java.lang.String)[pri:1, instance:testCases.EndToEndCombinedTests@6200f9cb]" name="verifyHomePageLoads" class="testCases.EndToEndCombinedTests"/>
+      </group> <!-- crossbrowser -->
+    </groups>
+    <test started-at="2025-09-08T17:52:00 IST" name="EndToEndCombinationTest" finished-at="2025-09-08T17:54:59 IST" duration-ms="179101">
+      <class name="testCases.EndToEndCombinedTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:51:46 IST" name="beforeSuite" finished-at="2025-09-08T17:52:00 IST" duration-ms="13481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="verifyHomePageLoads(java.lang.String)[pri:1, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:00 IST" name="verifyHomePageLoads" finished-at="2025-09-08T17:52:02 IST" duration-ms="2363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoads -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:02 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:52:06 IST" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="validLoginTest()[pri:2, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:06 IST" name="validLoginTest" depends-on-groups="crossbrowser" finished-at="2025-09-08T17:52:32 IST" duration-ms="25386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:32 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:52:36 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:3, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:37 IST" name="testProductSearch" data-provider="searchData" depends-on-groups="login" finished-at="2025-09-08T17:52:42 IST" duration-ms="4868" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Galaxy S10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product list did not update or product 'Galaxy S10' not found. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product list did not update or product 'Galaxy S10' not found. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.EndToEndCombinedTests.testProductSearch(EndToEndCombinedTests.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:42 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:52:46 IST" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="testProductSearch(java.lang.String)[pri:3, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:46 IST" name="testProductSearch" data-provider="searchData" depends-on-groups="login" finished-at="2025-09-08T17:52:49 IST" duration-ms="3177" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Plus 7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product list did not update or product 'One Plus 7' not found. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product list did not update or product 'One Plus 7' not found. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.EndToEndCombinedTests.testProductSearch(EndToEndCombinedTests.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:49 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:52:53 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="testFilterAndSort(java.lang.String,java.lang.String)[pri:4, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:53 IST" name="testFilterAndSort" data-provider="limitedFilterData" depends-on-groups="login" finished-at="2025-09-08T17:52:57 IST" duration-ms="4478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lowest to highest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterAndSort -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:52:57 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:01 IST" duration-ms="4003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="testFilterAndSort(java.lang.String,java.lang.String)[pri:4, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:01 IST" name="testFilterAndSort" data-provider="limitedFilterData" depends-on-groups="login" finished-at="2025-09-08T17:53:05 IST" duration-ms="3318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Highest to lowest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterAndSort -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:05 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:09 IST" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="addFirstProductToCartTest()[pri:5, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:09 IST" name="addFirstProductToCartTest" depends-on-groups="filter" finished-at="2025-09-08T17:53:09 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstProductToCartTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:09 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:13 IST" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="addNamedProductToCartTest()[pri:6, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:13 IST" name="addNamedProductToCartTest" depends-on-groups="filter" finished-at="2025-09-08T17:53:16 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNamedProductToCartTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:16 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:20 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="increaseQuantityAndVerifySubtotal()[pri:7, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:20 IST" name="increaseQuantityAndVerifySubtotal" depends-on-groups="product" finished-at="2025-09-08T17:53:22 IST" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseQuantityAndVerifySubtotal -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:22 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:26 IST" duration-ms="4009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="removeItemFromCartTest()[pri:8, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:26 IST" name="removeItemFromCartTest" depends-on-groups="product" finished-at="2025-09-08T17:53:29 IST" duration-ms="2636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCartTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:29 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:33 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="addSecondItemToCartTest()[pri:9, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:33 IST" name="addSecondItemToCartTest" depends-on-groups="product" finished-at="2025-09-08T17:53:35 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondItemToCartTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:35 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:53:39 IST" duration-ms="4003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="checkoutShippingAndSubmitTest()[pri:10, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:53:39 IST" name="checkoutShippingAndSubmitTest" depends-on-groups="login, cart" finished-at="2025-09-08T17:54:14 IST" duration-ms="34717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutShippingAndSubmitTest -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:54:14 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:54:18 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method signature="fullCheckoutFlow_login_add_checkout_confirm_download_continue_checkNavs_logout()[pri:11, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:54:18 IST" name="fullCheckoutFlow_login_add_checkout_confirm_download_continue_checkNavs_logout" depends-on-groups="checkout" finished-at="2025-09-08T17:54:55 IST" duration-ms="37033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullCheckoutFlow_login_add_checkout_confirm_download_continue_checkNavs_logout -->
+        <test-method is-config="true" signature="pauseAfterEachTest()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:54:55 IST" name="pauseAfterEachTest" finished-at="2025-09-08T17:54:59 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseAfterEachTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.EndToEndCombinedTests@6200f9cb]" started-at="2025-09-08T17:54:59 IST" name="afterSuite" finished-at="2025-09-08T17:54:59 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.EndToEndCombinedTests -->
+    </test> <!-- EndToEndCombinationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
